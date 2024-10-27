@@ -1,0 +1,108 @@
+body{
+	position: relative;
+}
+
+/*header{ 
+	background-color: #7be281;
+	height: 100%; 
+	width: 100%; 
+	text-align: center;
+	line-height: 800%; 
+	color:#20a127;
+}*/
+
+header{ 
+	background-color: #7be281;
+	top: 15px;
+	height: 200px; 
+	width: 100%; 
+	text-align: center;
+	line-height: 300%; 
+	padding-top: 5%;
+	color:#20a127;
+	font-family: Lucida Bright;
+}
+
+header a{
+	position: absolute;
+	top:1%;
+	left: 2%;
+	text-decoration: none;
+	color: rgb(4, 112, 18);
+}
+header a:hover{
+	opacity:calc(0);
+    color: rgb(0, 0, 0);
+}
+
+.myDiv a{
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	text-decoration: none;
+    color:rgb(0, 0, 0);
+	opacity:calc(0);
+}
+
+.myDiv a:hover{
+	opacity:calc(1);
+    color: rgb(4, 112, 18);
+}
+
+.article{
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 5%;
+}
+
+article{
+	position: absolute;
+	width: 70%;
+	left: 25%;
+}
+
+aside{
+	font-family: georgian;
+	float: left;
+	width: 20.5%;
+	min-height: 500px;
+	margin: 20px; 
+	border: 3px solid rgb(233, 253, 55); 
+	border-radius: 5%;
+
+	/*font-family: georgian;
+    position: absolute;
+    padding: 20px;
+    top: 120%;
+	float: left;
+	width: 30%;
+	min-height: 150px;
+	margin: 20px; 
+	border: 3px solid rgb(21, 253, 0);
+	border-radius: 6%;*/
+}
+
+.aside a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.aside img{
+	justify-content: center;
+	align-items: center;
+}
+
+/*pie de pagina*/
+.logo{
+	position: absolute;
+    top: 400%;
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+    width: 50;
+}
+
+/*fin de pie de pagina*/

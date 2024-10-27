@@ -1,0 +1,91 @@
+/*body{
+	background-image: url("images.jpg");
+}*/
+
+header{ 
+	background-color:  #c5e7e1;
+	top: 15px;
+	height: 200px; 
+	width: 100%; 
+	text-align: center;
+	line-height: 300%; 
+	padding-top: 5%;
+	color:#37b6e9;
+	font-family: Lucida Bright;
+}
+
+header a{
+	position: absolute;
+	top:1%;
+	left: 2%;
+	text-decoration: none;
+    color: #5146e4;
+}
+header a:hover{
+	opacity:calc(0);
+    color: rgb(0, 0, 0);
+}
+
+.myDiv a{
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	text-decoration: none;
+    color:rgb(0, 0, 0);
+	opacity:calc(0);
+}
+
+.myDiv a:hover{
+	opacity:calc(1);
+	color: #5146e4;
+}
+
+.article{
+	padding-left: 5%;
+	padding-right: 2%;
+	padding-top: 5%;
+	width: 1000px;
+}
+
+main{
+	padding-left: 5%;
+	padding-right: 2%;
+	padding-top: 5%;
+	width: 1000px;
+}
+
+main img{
+	position: absolute;
+	float: left;
+	left: 1000px;
+	top: 800px;
+	width: 20%;
+}
+
+aside{ 
+	position: absolute;
+	float: left;
+	left: 1000px;
+	top: 300px;
+	width: 20%;
+	min-height: 1000px;
+}
+
+/*pie de pagina*/
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 50;
+}
+
+/*fin de pie de pagina*/
+
+article{ 
+	font-family:'Trebuchet MS';
+	color: black;
+	width: 100%;
+}

@@ -1,0 +1,166 @@
+header{ 
+	background-color: rgb(250, 253, 63);
+	top: 15px;
+	height: 200px; 
+	width: 100%; 
+	text-align: center;
+	line-height: 300%; 
+	padding-top: 5%;
+	color:rgb(0, 0, 0);
+	font-family: Lucida Bright;
+}
+
+header a{
+	position: absolute;
+	top:1%;
+	left: 2%;
+	text-decoration: none;
+    color:black;
+}
+header a:hover{
+	opacity:calc(0);
+    color: rgb(0, 0, 0);
+}
+
+iframe {
+	width: 300px;
+	height: 259px;
+}
+
+.myDiv a{
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	text-decoration: none;
+    color:rgb(0, 0, 0);
+	opacity:calc(0);
+
+}
+
+.myDiv a:hover{
+	opacity:calc(1);
+    color: rgb(0, 0, 0);
+}
+
+article{
+	position: absolute;
+	font-family: georgian;
+	float: left;
+	width: px;
+	min-height: 300px;
+	margin: 20px; 
+	border: 3px solid rgb(233, 253, 55); 
+	border-radius: 5%;
+}
+
+.article img{
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.article a{
+	position:absolute;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+.article a:hover{
+	color:rgb(12, 35, 240);
+}
+
+/*article{ 
+
+	font-family:merrweing;
+	color: black;
+	width: 80%;
+}*/
+
+/*<section id="content">
+<article class="article">
+	<font size="6"><center>
+		<p>Teléfono: 2123 – 5389.</p>
+		<p>Gmail: InstitutoAprendeConmigo@gmail.com</p>
+		<p>Sector: Privado.</p>
+		</center>
+	</font>
+</article>
+</section>*/
+
+aside{ 
+	font-family: georgian;
+    position: absolute;
+    padding: 20px;
+    top: 250px;
+	float: left;
+	left: 30%;
+	width: 200px;
+	min-height: 40px;
+	margin: 20px; 
+	border: 3px solid rgb(21, 253, 0);
+	border-radius: 6%;
+}
+
+main{ 
+    font-family: georgian;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width: 35%;
+    position:absolute;
+    top: 525px;
+    left: 30%;
+	min-height: 50px;
+	margin: 30px; 
+    border: 3px solid rgb(255, 0, 0); 
+	border-radius: 5%; 
+}
+
+span{
+    font-family: georgian;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    position:absolute;
+    left: 62%;
+    top: 300px;
+	margin: 30px; 
+    border: 3px solid rgb(253, 164, 0); 
+	border-radius: 5%; 
+}
+
+/*pie de pagina
+.logo{
+    position: absolute;
+    top: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+fin de pie de pagina*/
+
+/*pie de pagina*/
+.logo{
+	position: absolute;
+    top: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 50;
+}
+
+/*fin de pie de pagina*/
+
+
+
+

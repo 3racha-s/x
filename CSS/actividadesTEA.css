@@ -1,0 +1,98 @@
+body{
+	position: relative;
+}
+
+/*header{ 
+	background-color: #c5e7e1;
+	height: 100%; 
+	width: 100%; 
+	text-align: center;
+	line-height: 800%; 
+	color:#37b6e9;
+}*/
+
+header{ 
+	background-color:  #c5e7e1;
+	top: 15px;
+	height: 200px; 
+	width: 100%; 
+	text-align: center;
+	line-height: 300%; 
+	padding-top: 5%;
+	color:#37b6e9;
+	font-family: Lucida Bright;
+}
+
+header a{
+	position: absolute;
+	top:1%;
+	left: 2%;
+	text-decoration: none;
+	color: #5146e4;
+}
+header a:hover{
+	opacity:calc(0);
+    color: rgb(0, 0, 0);
+}
+
+.myDiv a{
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	text-decoration: none;
+    color:rgb(0, 0, 0);
+	opacity:calc(0);
+}
+
+.myDiv a:hover{
+	opacity:calc(1);
+	color: #5146e4;
+}
+
+article{ 
+    padding-top: 20px;
+	font-family:'Trebuchet MS';
+	color: black;
+	width: 80%;
+}
+
+.article{
+	padding-left: 5%;
+	padding-right: 2%;
+	padding-top: 5%;
+	width: 1000px;
+}
+
+.cuerpo{
+	padding-left: 5%;
+	padding-right: 2%;
+	padding-top: 5%;
+	width: 1000px;
+}
+
+aside{
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	width: 20%;
+}
+
+main{
+	position: absolute;
+	top: 1100px;
+	left: 40%;
+}
+
+/*pie de pagina*/
+.logo{
+	position: absolute;
+    top: 132%;
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+    width: 50;
+}
+
+/*fin de pie de pagina*/

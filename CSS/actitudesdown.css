@@ -1,0 +1,127 @@
+body{
+    position: relative;
+}
+
+/*header{ 
+	background-color: #7be281;
+	height: 100%; 
+	width: 100%; 
+	text-align: center;
+	line-height: 800%; 
+	color: #20a127;
+}*/
+
+header{ 
+	background-color: #7be281;
+	top: 15px;
+	height: 200px; 
+	width: 100%; 
+	text-align: center;
+	line-height: 300%; 
+	padding-top: 5%;
+	color:#20a127;
+	font-family: Lucida Bright;
+}
+
+header a{
+	position: absolute;
+	top:1%;
+	left: 2%;
+	text-decoration: none;
+    color: rgb(4, 112, 18);
+}
+header a:hover{
+	opacity:calc(0);
+    color: rgb(0, 0, 0);
+}
+
+.myDiv a{
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	text-decoration: none;
+    color:rgb(0, 0, 0);
+	opacity:calc(0);
+}
+
+.myDiv a:hover{
+	opacity:calc(1);
+	color: rgb(4, 112, 18);
+}
+
+article{ 
+    padding: 20px;
+	font-family: georgian;
+	color: black;
+	width: 100%;
+}
+
+aside{ 
+	font-family: georgian;
+    position: absolute;
+    padding: 20px;
+    top: 450px;
+	float: left;
+	width: 30%;
+	min-height: 150px;
+	margin: 20px; 
+	border: 3px solid rgb(21, 253, 0);
+	border-radius: 6%;
+}
+
+main{ 
+    font-family: georgian;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    position:absolute;
+    top:700px;
+    left: 33%;
+	min-height: 150px;
+	margin: 30px; 
+    border: 3px solid rgb(255, 0, 0); 
+	border-radius: 5%; 
+
+	/*font-family: georgian;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+	right: 20%;
+    top: 72%;
+	width: 30%;
+	min-height: 500px;
+	margin: 20px; 
+	border: 1px solid rgb(253, 0, 0); 
+	border-radius: 5%;*/
+}
+
+span{
+    font-family: georgian;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    position:absolute;
+    left: 62%;
+    top: 500px;
+	margin: 30px; 
+    border: 3px solid rgb(253, 164, 0); 
+	border-radius: 5%; 
+}
+
+/*pie de pagina*/
+.logo{
+    position: absolute;
+    top: 200%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 50;
+}
+
+/*fin de pie de pagina*/
+
